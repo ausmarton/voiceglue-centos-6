@@ -1,0 +1,106 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {},
+       {
+         'verbose' => undef,
+         'PL_files' => undef,
+         'pollute' => undef,
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'conflicts' => {},
+         'recommends' => {},
+         'scripts' => undef,
+         'dist_version' => '0.02',
+         'pod_files' => undef,
+         'config_dir' => '_build',
+         'sign' => undef,
+         'recurse_into' => [],
+         'build_bat' => 0,
+         'extra_linker_flags' => [],
+         'build_class' => 'Module::Build',
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'base_dir' => '/root/voiceglue-0.14/Voiceglue-Conf',
+         'allow_mb_mismatch' => 0,
+         'xs_files' => undef,
+         'destdir' => undef,
+         'metafile' => 'META.yml',
+         'mb_version' => '0.35',
+         'use_tap_harness' => 0,
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'has_config_data' => undef,
+         'dist_name' => 'Voiceglue-Conf',
+         'install_base' => undef,
+         'module_name' => 'Voiceglue::Conf',
+         'recursive_test_files' => undef,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'perl' => '/usr/bin/perl',
+         'dist_author' => [
+                            'Doug Campbell <voiceglue@voiceglue.org>'
+                          ],
+         'use_rcfile' => 1,
+         'configure_requires' => {},
+         'test_files' => undef,
+         'dist_abstract' => undef,
+         'create_readme' => undef,
+         'prefix_relpaths' => {},
+         'debug' => undef,
+         'meta_merge' => {},
+         'get_options' => {},
+         'dist_version_from' => 'lib/Voiceglue/Conf.pm',
+         'auto_configure_requires' => 1,
+         'create_license' => undef,
+         'debugger' => undef,
+         'html_css' => '',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'pod',
+                               'script'
+                             ],
+         'orig_dir' => '/root/voiceglue-0.14/Voiceglue-Conf',
+         'include_dirs' => [],
+         'installdirs' => 'site',
+         'create_makefile_pl' => 'traditional',
+         'magic_number' => undef,
+         'install_sets' => {},
+         'tap_harness_args' => {},
+         'install_base_relpaths' => {},
+         'meta_add' => {},
+         'create_packlist' => 1,
+         'requires' => {},
+         'install_path' => {},
+         'pm_files' => undef,
+         'quiet' => undef,
+         'script_files' => undef,
+         'extra_compiler_flags' => [],
+         'build_script' => 'Build',
+         'original_prefix' => {},
+         'c_source' => undef,
+         'autosplit' => undef,
+         'program_name' => undef,
+         'license' => 'gpl',
+         'build_requires' => {
+                               'Test::More' => 0,
+                               'Satc' => 0
+                             },
+         'config' => undef,
+         'blib' => 'blib',
+         'prefix' => undef
+       }
+     ];
+$x; }

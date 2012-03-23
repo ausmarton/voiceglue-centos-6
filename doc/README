@@ -1,0 +1,9 @@
+This is the README for voiceglue version 0.14
+
+Voiceglue is software that interprets VXML files using
+the OpenVXI VXML interpreter and Asterisk telephony.
+
+All code and documentation including installation
+and configuration guides have been moved to github:
+  https://github.com/voiceglue/voiceglue/wiki
+

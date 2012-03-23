@@ -1,0 +1,9 @@
+do{ my $x = {
+       'blib/arch/auto/Cam/Scom/Scom.so' => 1,
+       'Cam-Scom-*' => 1,
+       'blib/arch/auto/Cam/Scom/Scom.bs' => 1,
+       'lib/Cam/Scom.c' => 1,
+       'lib/Cam/Scom.o' => 1,
+       'blib' => 1
+     };
+$x; }

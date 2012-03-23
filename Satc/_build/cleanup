@@ -1,0 +1,9 @@
+do{ my $x = {
+       'lib/Satc.c' => 1,
+       'blib/arch/auto/Satc/Satc.so' => 1,
+       'Satc-*' => 1,
+       'blib/arch/auto/Satc/Satc.bs' => 1,
+       'blib' => 1,
+       'lib/Satc.o' => 1
+     };
+$x; }
